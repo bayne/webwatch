@@ -1,0 +1,13 @@
+{
+    "name": "bpayne/watch",
+    "authors": [
+        {
+            "name": "Brian Payne",
+            "email": "bpayne@uci.edu"
+        }
+    ],
+    "require": {
+        "icap/html-diff": "> 1.0.1",
+        "sebastian/diff": "dev-master"
+    }
+}

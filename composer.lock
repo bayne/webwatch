@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "092533c3cc1333ee3320e5a9bf4ad90d",
+    "packages": [
+        {
+            "name": "icap/html-diff",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iCAPLyon1/HtmlDiff.git",
+                "reference": "c9477e69ac9db15eb3a7a34c0053b80b8daf88d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iCAPLyon1/HtmlDiff/zipball/c9477e69ac9db15eb3a7a34c0053b80b8daf88d0",
+                "reference": "c9477e69ac9db15eb3a7a34c0053b80b8daf88d0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Icap\\HtmlDiff\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Panagiotis Tsavdaris",
+                    "email": "ptsavdar@gmail.com"
+                },
+                {
+                    "name": "ICAP development team",
+                    "homepage": "https://github.com/iCAPLyon1"
+                }
+            ],
+            "description": "A PHP5 library that diffs (compares) HTML files.",
+            "keywords": [
+                "daisy diff",
+                "html diff"
+            ],
+            "time": "2014-01-16 16:31:34"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "ac84cfdec593945f36f24074d6ea17d296e86f76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/ac84cfdec593945f36f24074d6ea17d296e86f76",
+                "reference": "ac84cfdec593945f36f24074d6ea17d296e86f76",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                },
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "http://www.github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff"
+            ],
+            "time": "2014-05-12 05:21:40"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sebastian/diff": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
